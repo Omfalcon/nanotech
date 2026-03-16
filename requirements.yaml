@@ -1,0 +1,27 @@
+packages:
+  "framer-motion": "For page transitions, scroll-triggered animations, and the animated counters"
+  "lucide-react": "For beautiful consistent icons across the landing page"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images:
+  - path: "artifacts/neanic-landing/public/images/logo.png"
+    description: "Minimalist modern geometric logo mark combining an 'N' and an infinity loop, in vibrant teal and soft blue on a transparent background, clean startup aesthetic"
+    aspect_ratio: "1:1"
+  - path: "artifacts/neanic-landing/public/images/hero-bg.png"
+    description: "Abstract soft gradient mesh background in light airy teal, sky blue, and pure white with subtle floating glowing orbs, futuristic yet very clean and bright"
+    aspect_ratio: "16:9"
+  - path: "artifacts/neanic-landing/public/images/about-illustration.png"
+    description: "High-quality 3D modern illustration of diverse young professionals and students collaborating around floating futuristic technological elements, bright white background, teal and blue accents"
+    aspect_ratio: "4:3"
+  - path: "artifacts/neanic-landing/public/images/ed-tech.png"
+    description: "Beautiful 3D isometric illustration representing modern education technology, digital learning interfaces, graduation cap made of light, vibrant cyan and blue colors"
+    aspect_ratio: "1:1"
+  - path: "artifacts/neanic-landing/public/images/med-tech.png"
+    description: "Beautiful 3D isometric illustration representing nanotechnology in healthcare, a glowing diagnostic medical device, clean white and teal laboratory aesthetic"
+    aspect_ratio: "1:1"
+
+notes:
+  - No backend API needed for this purely frontend static landing page.
+  - Using Framer Motion for scroll animations and animated stat counters.
+  - Card stacking effect implemented using CSS position sticky.
